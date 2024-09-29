@@ -52,7 +52,7 @@ Visualization Manager:
       Value: true
     - Alpha: 0.5
       Class: rviz_default_plugins/RobotModel
-      Collision Enabled: false
+      Collision Enabled: true
       Description File: ""
       Description Source: Topic
       Description Topic:
@@ -78,6 +78,11 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        link_2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
       Mass Properties:
         Inertia: false
         Mass: false
@@ -95,7 +100,9 @@ Visualization Manager:
           Value: true
         link_1:
           Value: true
-      Marker Scale: 0.30000001192092896
+        link_2:
+          Value: true
+      Marker Scale: 0.5
       Name: TF
       Show Arrows: true
       Show Axes: true
@@ -103,7 +110,8 @@ Visualization Manager:
       Tree:
         base_link:
           link_1:
-            {}
+            link_2:
+              {}
       Update Interval: 0
       Value: true
   Enabled: true
@@ -152,7 +160,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 1.2933698892593384
+      Distance: 3.2130625247955322
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -167,10 +175,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.3403983414173126
+      Pitch: 0.2697974741458893
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.49539828300476074
+      Yaw: 0.9803962111473083
     Saved: ~
 Window Geometry:
   Displays:
