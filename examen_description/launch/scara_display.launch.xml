@@ -1,6 +1,6 @@
 <launch>
     <let name="urdf_path"
-        value="$(find-pkg-share examen_description)/urdf/scara.urdf.xacro" />
+        value="$(find-pkg-share examen_description)/urdf/scara_simple_controller.xacro" /> <!--scara.urdf.xacro para rviz-->
     <let name="rviz_config"
         value="$(find-pkg-share examen_description)/rviz/scara_rviz.rviz" />
     <node pkg="robot_state_publisher" exec="robot_state_publisher">
