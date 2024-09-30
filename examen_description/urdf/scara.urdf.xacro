@@ -3,6 +3,7 @@
 
 <!--<robot name="robot_scara">-->
 
+<!--Descripcion del robot scara-->
     <link name="base_link">
         <visual>
             <origin xyz="0.0 0.0 0.10" rpy="0.0 0.0 0.0" />
